@@ -73,8 +73,8 @@ class TestEducation(BaseClass):
         firstcoursetitle = Home.firstcoursename().text
         print("1st course name :- " +firstcoursetitle)
 
-        #firstratting = Home.firstcourseRating().text
-        #print("1st course rating :-" +firstratting)
+        firstratting = Home.firstcourseRating().text
+        print("1st course rating :-" +firstratting)
 
         #fristCtime = Home.firstcoursetime().text
         #print("Time duration :- " +fristCtime)
