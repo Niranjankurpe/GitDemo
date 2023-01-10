@@ -70,8 +70,8 @@ class TestEducation(BaseClass):
         Home.clickApply().click()
         time.sleep(5)
 
-        #firstcoursetitle = Home.firstcoursename().text
-        #print("1st course name :- " +firstcoursetitle)
+        firstcoursetitle = Home.firstcoursename().text
+        print("1st course name :- " +firstcoursetitle)
 
         #firstratting = Home.firstcourseRating().text
         #print("1st course rating :-" +firstratting)
